@@ -1,0 +1,14 @@
+If you change the column class from col-md-6 to col-lg-6 or col-sm-6, the behavior of the two columns will change based on screen size:
+col-md-6 (original):
+1. Columns are side by side (50%-50%) on medium screens (≥768px) and larger.
+   On smaller screens (<768px), columns stack vertically.
+2. col-lg-6:
+   Columns are side by side only on large screens (≥992px) and larger.
+   On smaller screens (<992px), columns stack vertically.
+3. col-sm-6:
+   Columns are side by side on small screens (≥576px) and larger.
+   On extra small screens (<576px), columns stack vertically.
+Difference & Impact:
+- The sm, md, and lg define the minimum screen width for the column width to take effect.
+- Smaller breakpoints make columns side by side earlier (on smaller screens).
+- Larger breakpoints make columns stack on more screen sizes, appearing side by side only on wider screens.
